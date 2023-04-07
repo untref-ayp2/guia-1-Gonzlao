@@ -19,7 +19,7 @@ Se pide:
 
 El problema del subsecuencia de suma máxima consiste en encontrar una secuencia (en posiciones consecutivas) cuya suma sea máxima dentro de un arrego original. Por ejemplo: en el arreglo -1,6,-2,5,-1,4,3,-4,3. 1 la subsecuencia de suma máxima es 6,-2,5,-1,4,3, cuya suma es 15.
 
-1. Analizar el orden de la función SubsecuenciaSumaMaxima
+1. Analizar el orden de la función SubsecuenciaSumaMaxima <b>Resuelto en los comentarios del file subsumamax.go</b>
 
 2. Encontrar otra solución que sea O(N)
 

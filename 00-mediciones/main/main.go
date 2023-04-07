@@ -3,6 +3,7 @@ package main
 import (
 	"busquedas"
 	"fmt"
+	"ordenamientos"
 	"sort"
 	"time"
 	"utiles"
@@ -10,6 +11,7 @@ import (
 
 func main() {
 	arreglo := utiles.GenerarArreglo(10, 100000)
+	conjunto1 := []int{9, 2, 6, 1, 8, 4, 7, 3, 5}
 	buscado := -1
 
 	//fmt.Println(arreglo)
@@ -29,5 +31,10 @@ func main() {
 	// Busqueda Binaria
 	fmt.Println(busquedas.BusquedaBinaria(arreglo, buscado))
 	fmt.Println("Busqueda Binaria: ", time.Since(inicio))
+
+	inicio = time.Now()
+	// Ordenamiento por Borbujeo
+	fmt.Println(ordenamientos.OrdenamientoBorbujeo(conjunto1))
+	fmt.Println("Ordenamiento por Borbujeo: ", time.Since(inicio))
 
 }
